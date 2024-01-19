@@ -1,0 +1,33 @@
+<div class="Seller-authh">
+  <div class="sign-up">
+    <h1>Seller Authentication</h1>
+    <form class="common-formm" [formGroup]="sellerAuth">
+      <input
+        class="form-input"
+        type="text"
+        formControlName="sellername"
+        placeholder="enter name"
+      />
+
+      <input
+        class="form-input"
+        type="email"
+        formControlName="selleremail"
+        placeholder="enter email"
+      />
+
+      <input
+        class="form-input"
+        type="password"
+        formControlName="sellerpassword"
+        placeholder="enter password"
+      />
+
+      <button type="submit" class="form-button">Submit</button>
+
+      <!-- <button (click)="SetData()" class="form-button">Set Data</button> -->
+    </form>
+  </div>
+</div>
+
+<h1>{{sellerAuth.value| json}}</h1>

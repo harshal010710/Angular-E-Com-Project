@@ -1,0 +1,67 @@
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+  }
+  
+  .Seller-authh {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+  }
+  
+  .sign-up {
+	width: 400px;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+	/* Center the form */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  h1 {
+	color: green;
+	margin-bottom: 20px;
+  }
+  
+  .common-formm {
+	width: 100%; /* Make the form full width */
+  }
+  
+  .form-input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+	color: #333;
+  }
+  
+  .form-input::placeholder {
+	color: gray;
+  }
+  
+  .form-button {
+	width: 100%; /* Make the button full width */
+	padding: 10px;
+	background-color: rgb(146, 142, 142);
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .form-button:hover {
+	background-color: gray;
+  }
+  
